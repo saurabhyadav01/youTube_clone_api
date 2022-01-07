@@ -29,7 +29,7 @@ defaultVideos()
 try{
  var name=document.querySelector("#search").value;
  console.log(name)
- let res= await fetch(`https://youtube.googleapis.com/youtube/v3/search?part=snippet&chart=mostPopular&regionCode=IN&type=video&key=AIzaSyBQIfwrM7cCtzirvwmb5oifYrrjOeAw6v8&maxResults=20`)
+ let res= await fetch(`https://youtube.googleapis.com/youtube/v3/search?part=snippet&chart=mostPopular&regionCode=IN&type=video&=[key]&maxResults=20`)
   var data =await res.json();
  // console.log(data)
   var video=data.items
