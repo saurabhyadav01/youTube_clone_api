@@ -1,5 +1,5 @@
 
-//searchVideos()
+searchVideos()
 async function searchVideos()
 {
 
@@ -7,7 +7,7 @@ try
 {
  var name=document.querySelector("#search").value;
  console.log(name)
- var res=await fetch(`https://youtube.googleapis.com/youtube/v3/search?part=snippet&q=${name}&type=video&key=[key]&maxResults=20`);
+ var res=await fetch(`https://youtube.googleapis.com/youtube/v3/search?part=snippet&q=${name}&type=video&key=AIzaSyBQIfwrM7cCtzirvwmb5oifYrrjOeAw6v8&maxResults=20`);
 
   var data =await res.json();
  // console.log(data)
