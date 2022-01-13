@@ -20,6 +20,7 @@
 
 {
   margin-top: 20px;
+  
 }.logo-search
 {
   display: flex;
@@ -30,15 +31,16 @@
  margin-top: 15px;  
 }.logo-search>input{
   margin-left:200px;
-  height: 60px;
+  height: 56px;
   border: 2px solid black;
   width: 30%;
   gap: 20px;
   border-radius: 5px 0px 0px 5px;
   margin-top: 8px;
 }.logo-search>button{
-  height: 64px;
+  height: 60px;
   width: 100px;
+  
   margin-top: 8px;
   border-radius: 0px 5px 5px 0px;
 
@@ -47,12 +49,13 @@
 }.logo-search>img{
   height: 60px;
   width: 100px;
-  margin-top: 10px;
+  margin-top: 12px;
   margin-left: 30px;
   border-radius: 10px 10px 10px 10px;
 }.nav_div_container
 {
   display: flex;
+  
 }.side-nav
 {
   width: 10%;
@@ -93,6 +96,7 @@ font-size: 35px;
  .nav_bar
     {
         height: 100px;
+      
     }
     .main
     {
@@ -100,6 +104,7 @@ font-size: 35px;
         display: flex;
         gap: 20px;
         height: 600px;
+       
     }
     #video_details
     {
@@ -114,4 +119,21 @@ font-size: 35px;
     }
     button>i{
   font-size: 20px;
+}.logo-search>div
+{
+  margin-top: 20px;
+}
+.logo-search>div>a
+{
+  margin:22px;
+  font-size: 20px;
+  margin:22px;
+}
+.logo-search>div>a{
+  text-decoration: none;
+  color: black;
+}.logo-search>div>a:hover
+{
+
+  font-size: 25px;
 }
